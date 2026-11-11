@@ -10,7 +10,7 @@ input.onGesture(Gesture.Shake, function () {
             # # # # #
             `)
         music.playSoundEffect(music.createSoundEffect(WaveShape.Square, 5000, 0, 255, 0, 500, SoundExpressionEffect.None, InterpolationCurve.Linear), SoundExpressionPlayMode.UntilDone)
-    } else if (false) {
+    } else if (true) {
         basic.showLeds(`
             . . . . .
             . # # # .
